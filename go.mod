@@ -1,4 +1,4 @@
-module github.com/minio/mc
+module github.com/mware-solutions/osscli
 
 go 1.13
 
