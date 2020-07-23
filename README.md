@@ -1,7 +1,6 @@
-# MinIO Client Quickstart Guide
-[![Slack](https://slack.min.io/slack?type=svg)](https://slack.min.io) [![Go Report Card](https://goreportcard.com/badge/minio/mc)](https://goreportcard.com/report/minio/mc) [![Docker Pulls](https://img.shields.io/docker/pulls/minio/mc.svg?maxAge=604800)](https://hub.docker.com/r/minio/mc/)
+# Object Storage Client Quickstart Guide
 
-MinIO Client (mc) provides a modern alternative to UNIX commands like ls, cat, cp, mirror, diff, find etc. It supports filesystems and Amazon S3 compatible cloud storage service (AWS Signature v2 and v4).
+Provides a modern alternative to UNIX commands like ls, cat, cp, mirror, diff, find etc. It supports filesystems and Amazon S3 compatible cloud storage service (AWS Signature v2 and v4).
 
 ```
 ls        list buckets and objects
@@ -212,13 +211,6 @@ admin    config   diff     find     ls       mirror   policy   session  sql     
 cat      cp       event    head     mb       pipe     rm       share    stat     version
 ```
 
-## Explore Further
-- [MinIO Client Complete Guide](https://docs.min.io/docs/minio-client-complete-guide)
-- [MinIO Quickstart Guide](https://docs.min.io/docs/minio-quickstart-guide)
-- [The MinIO documentation website](https://docs.min.io)
+# Build
+buildscripts/build.sh
 
-## Contribute to MinIO Project
-Please follow MinIO [Contributor's Guide](https://github.com/minio/mc/blob/master/CONTRIBUTING.md)
-
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fminio%2Fmc.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fminio%2Fmc?ref=badge_large)
